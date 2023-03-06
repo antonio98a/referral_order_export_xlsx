@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+    <!-- Report to referral order-->
+    <report id="report_referral_order_xlsx"
+            string="Orden de Remisión"
+            model="referral.order"
+            report_type="xlsx"
+            name="order_to_invoice.report_referral_order_xlsx"
+            file="order_to_invoice.report_referral_order_xlsx"/>    
+    </data>
+</odoo>
